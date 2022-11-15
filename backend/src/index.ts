@@ -1,5 +1,7 @@
 import App from './App.mjs';
 import Database from "./Database.mjs";
+import WebSocket from 'ws';
+
 
 const app = new App().application;
 
